@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanmondi Club Limited - Land Acquisition Fund</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #0b192c; /* ডিপ নেভি ব্লু ব্যাকগ্রাউন্ড */
+            color: #ffffff;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            border-top: 4px solid #d4af37; /* সোনালী বর্ডার */
+        }
+        /* উপরের ছোট হেডার বার */
+        .header-bar {
+            background: #d4af37;
+            color: #000000;
+            padding: 6px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        /* মেইন স্ক্রলিং এরিয়া */
+        .ticker-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            white-space: nowrap;
+            background: linear-gradient(90deg, #0b192c 0%, #162b49 50%, #0b192c 100%);
+        }
+        .ticker-text {
+            display: inline-block;
+            white-space: nowrap;
+            font-size: 32px; /* দূর থেকে স্পষ্ট দেখার জন্য বড় ফন্ট */
+            font-weight: 600;
+            padding-left: 100vw;
+            animation: scroll-left 280s linear infinite; /* স্পিড নিয়ন্ত্রণ (২৮০ সেকেন্ড) */
+        }
+        .highlight-amount {
+            color: #ffd700; /* টাকার পরিমাণ সোনালী রঙে হাইলাইট করা */
+            font-weight: bold;
+        }
+        .separator {
+            color: #d4af37;
+            margin: 0 18px;
+        }
+        @keyframes scroll-left {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-bar">
+        <span>Dhanmondi Club Limited — Land Acquisition Fund</span>
+        <span>As on 15th November 2026</span>
+    </div>
+
+    <div class="ticker-wrapper">
+        <div class="ticker-text">
+            * Yousuf Ali Shamim (LM-250) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Dewan Atiquzzaman (LM-526) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Habib Ullah Babul (LM-11) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Pearu Md. Ferdous Alam Khan (LM-295) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Faridur Reza Sagar (LM-789) - <span class="highlight-amount">2 Lac</span> <span class="separator">&bull;</span>
+            * S.M. Emdadul Islam (LM-635) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Abidur Rahman (LM-636) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Neesar Ahmed (LM-633) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Abdus Salam (LM-637) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Moinul Ahsan (LM-634) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Manirul Hakim Harun (LM-226) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Uttiya Bakshi Abir (LM-89) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Yasin (LM-264) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Dr. Mohammad Osman Ghani (LM-430) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Shafaat Khan Majlish (PM-135T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Akram Hossain (LM-664) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Habib Uddin Ahmed (LM-668) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Dulal Roy (PM-169) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Farida Yesmin Khan (LM-691) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Azizur Rahman Khan (LM-690) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Hazi Md Fazlu (LM-36T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Syed Nurul Arefeen (LM-04) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Maksudur Rahman Shopan (LM-339) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Capt. M. Moazzam Hossain (LM-119) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * A.B.M. Siddique (PM-188) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Shahid Ul Munir (LM-761) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Nahas Ahmed Khalil (SLM-25) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Shawkat Ali Bhuiyan Dilan (LM-17) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mahfuz Anam (PM-215) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mostofa Anowar Sohel (LM-627) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Akteruzzaman Khan (LM-12T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Abdul Latf (LM-94) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Engr. Nazrul Islam (LM-522) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Alamgir Hossain (LM-262) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Faruque Hossain (PM-232) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Engr. Mohammad Taufique (PM-196) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Tapon Kumar Saha (LM-245) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Nasir Uddin Ahamed (LM-426T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Engr. Md. Abdul Khaleque (LM-205) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Kabir Uddin Ahamed (LM-212T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Bimal Kumar Chanda (LM-589) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Kazi Harunor Rashid Salim (LM-164) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mir Musharraf Ali (LM-697) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Lokeman Hossain (LM-819) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Anisuzzaman Khan (LM-487) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Saiful Alam (PM-205) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Qamrun N. Taslim (PM-216) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Shaheen Mahmud Iqbal (PM-78T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Shabbir Khan (LM-645) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Enamul Hoq (SLM-09) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mesbahur Rahman (LM-625) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Engr. Md. Shamsul Alam (LM-280) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Istiaque Parvez Rabbi (SLM-04) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Mahabub Alam (PM-24) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Major (Retd.) Md. Imrul Alam (LM-391T) - <span class="highlight-amount">2 Lac</span> <span class="separator">&bull;</span>
+            * Wahidul Islam (LM-150T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Akter Hossain (LM-753) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Hossain Mahmud (LM-49) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Sheikh Mohammad Aman (LM-673) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Ehsanul Amin (LM-803) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Abdul Khaleque (LM-604) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Zawad Khaleque Arath (LM-748T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Habibullah Monju, FCA (LM-227) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mushfiqur Rahman (LM-742) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Abdul Quayum Khan (LM-621) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * A.K.M. Khaled (Shipon) (LM-643) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Habibul Hasan (LM-451) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Muhammad Shafique Ullah (LM-626) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Abdullah Jamil Matin (LM-287) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Abdul Haque Rabbi (LM-505) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Azizul Haque (Ratan) (LM-87) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md Kobir Hossain (PM-247) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mohammad Borhan Uddin (PM-248) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Khan Mohd. Ezaher (Emran) (LM-195) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md Ruhul Amin (PM-246) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Ranjit Kumar Ghosh (PM-249) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md Mokbul Hossain Sarder (LM-356T) - <span class="highlight-amount">2 Lac</span> <span class="separator">&bull;</span>
+            * Tarek Ahmed Adel (LM-350) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Farida Yasmin (LM-754) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Golam Farook (LM-744) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md Mojibur Rahman (LM-678T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Tahmina Matin (LM-141T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Hazi Miah Hossain (LM-420) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Dr. Md. Anwarul Mustafa, PEng. (LM-394) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mohammed Razzab Ali (Rajib) (LM-802) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mozammal Hoque Chanchal (PM-206) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Shakil Hossain (LM-489) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Ahadullah Khan (Rubel) (LM-759) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Shahidul Hoque (PM-171) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mohammad Masud (LM-307) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mohammad Monir (LM-308) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Nizamul Hoque Chowdhury (LM-476) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Monirul Islam Chowdhury (LM-714) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Arif Masud Chowdhury (DM-03) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Shahana Arif (LM-474) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Amina Sultana (LM-311T) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * S.A.M. Showket Hossain (LM-145) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Mallick Aminur Rahman (DM-05) - <span class="highlight-amount">1 Lac</span> <span class="separator">&bull;</span>
+            * Md. Abdur Rob (LM-230) - <span class="highlight-amount">2 Lac</span> <span class="separator">&bull;</span>
+            * A. K. Azad (LM-252) - <span class="highlight-amount">2 Lac</span> <span class="separator">&bull;</span>
+            * Monnujan Begum Ruby (LM-703) - <span class="highlight-amount">2 Lac</span> <span class="separator">&bull;</span>
+            * Mohammad Mafizur Rahman (LM-405T) - <span class="highlight-amount">2 Lac</span>
+        </div>
+    </div>
+
+</body>
+</html>
